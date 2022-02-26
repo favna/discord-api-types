@@ -13,8 +13,11 @@
 	--sapphire-paper-drop-shadow-4: rgb(0 0 0 / 20%) 0px 2px 4px -1px, rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px;
 
 	/* discord.js themeing */
-	--ifm-link-color: #3c45a5;
+	--ifm-link-color: hsl(235, 85%, 65%);
+	--ifm-footer-link-color: hsl(235, 85%, 82%);
 	--ifm-navbar-background-color: #4752c4;
+	--ifm-navbar-link-hover-color: #81d4fa;
+	--ifm-navbar-link-color: #f5f6f7;
 }
 
 html[data-theme='dark'] {
@@ -29,7 +32,6 @@ html[data-theme='dark'] {
 
 	/* discord.js themeing */
 	--ifm-background-color: #1d1d1d;
-	--ifm-footer-background-color: #4752c4;
 	--ifm-navbar-background-color: #4752c4;
 	--ifm-link-color: hsl(235, 85%, 82%);
 }
@@ -64,13 +66,12 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 	margin-left: var(--ifm-global-spacing);
 }
 
-html[data-theme='dark'] .footer--dark {
+.footer--dark {
 	--tw-text-opacity: 1;
 	--ifm-footer-color: rgba(229, 231, 235, var(--tw-text-opacity));
 	--ifm-footer-title-color: rgba(229, 231, 235, var(--tw-text-opacity));
 
 	--ifm-footer-background-color: #4752c4;
-	--ifm-footer-link-color: var(--ifm-link-color);
 }
 
 @media screen and (min-width: 966px) {
